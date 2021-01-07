@@ -19,7 +19,7 @@ SELECT nev FROM diakok;
 SELECT nev AS [Osztály diákjai] FROM diakok;
 
 SELECT * FROM diakok
-WHERE beiratkozott < '2015-01-01'
+WHERE beiratkozott < '2015-01-01';
 
 SELECT nev, matek FROM diakok
 WHERE matek BETWEEN 4 AND 5;
